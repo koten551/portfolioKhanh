@@ -1,0 +1,30 @@
+
+.contact {
+    margin-bottom: 200px;
+}
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+.form-group label {
+    color: var(--header-color);
+    font-size: 18px;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px 6px;
+    font-size: 16px;
+    outline: none;
+    background: #1D2F3C;
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+}
+
+.form-group textarea {
+    resize: none;
+}

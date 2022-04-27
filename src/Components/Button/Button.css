@@ -1,0 +1,15 @@
+.primary_btn {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 6px 10px 10px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    width: fit-content;
+    font-family: var(--primary-font);
+    user-select: none;
+}
+
+.primary_btn:hover {
+    background-color: rgb(134, 255, 112, 0.1);
+}
