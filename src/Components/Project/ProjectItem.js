@@ -8,7 +8,7 @@ function ProjectItem({ props, isRreverse }) {
         <div className="section_inner" 
             style={isRreverse ? {flexDirection: "row-reverse"} : {}}>
             <div className="project_preview" style={{ backgroundImage: props.image }}>
-                <a href={props.projectLink} style={{color: "transparent"}}>.</a>
+                <a href={props.projectLink}></a>
             </div>
             <div className="project_details_wrap">
                 <div className="project_details"
