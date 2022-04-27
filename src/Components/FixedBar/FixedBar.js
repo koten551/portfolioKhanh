@@ -10,10 +10,10 @@ function FixedBar() {
         <>
             <div className="vertical_bar" style={{ left: "50px" }}>
                 <ul>
-                    <li><a href=""><AiFillGithub /></a></li>
-                    <li><a href=""><AiOutlineInstagram /></a></li>
-                    <li><a href=""><AiOutlineFacebook /></a></li>
-                    <li><a href=""><FiTwitter /></a></li>
+                    <li><a href="https://github.com/koten551"><AiFillGithub /></a></li>
+                    <li><a href="https://www.instagram.com/h2khanh/"><AiOutlineInstagram /></a></li>
+                    <li><a href="https://www.facebook.com/koten551"><AiOutlineFacebook /></a></li>
+                    <li><a href="https://twitter.com/koten551"><FiTwitter /></a></li>
                 </ul>
             </div>
             <div className="vertical_bar" style={{ right: "50px" }}>
