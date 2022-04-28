@@ -11,7 +11,7 @@ function About() {
 
             <div className="section_inner">
                 <div className="row">
-                    <div className="col l-8 m-8 c-12">
+                    <div className="col l-8 m-6 c-12">
                         <p>
                             With the knowledge of what's in the school and courses,
                             I've always wanted to become a Front-End Developer,
@@ -40,9 +40,15 @@ function About() {
                             <li>Bootstrap</li>
                         </ul>
                     </div>
-                    <div className="col l-4 m-4 c-12">
-                        <div className="avatar_wrap">
-                            <img className="avatar" src="./avatar.jpg" alt="avatar"></img>
+                    <div className="col l-4 m-6 c-12">
+                        <div className="wrapper">
+                            <div className="avatar_wrap">
+                                <div className="avatar_border">
+
+                                </div>
+                                <img className="avatar" src="./avatar.jpg" alt="avatar"></img>
+                            </div>
+
                         </div>
                     </div>
                 </div>

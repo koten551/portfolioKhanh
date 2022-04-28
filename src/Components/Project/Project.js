@@ -11,27 +11,36 @@ const projectList = [
         overLine: "Website & App",
         title: "Fresh Food",
         techList: ["HTML", "CSS", "Javascript"],
-        gitLink: "http://github.com/",
-        projectLink: "http://github.com",
-        description: "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm."
+        gitLink: "https://github.com/koten551/webNongSan",
+        projectLink: "https://nongsansach.netlify.app/",
+        description: "Website bán nông sản sạch, hữu cơ, chuyên cung cấp các sản phẩm sạch, chất lượng và an toàn cho người tiêu dùng"
     },
     {
-        image: "url(./foodpreview.png)",
+        image: "url(./tiktok.png)",
+        overLine: "Theme Clone",
+        title: "Tiktok",
+        techList: ["ReactJS"],
+        gitLink: "https://github.com/koten551/tiktokThemeClone",
+        projectLink: "https://deluxe-druid-0f0867.netlify.app/",
+        description: "Sử dụng ReactJS tạo giao diện của Tiktok, dự án đang trong thời gian phát triển"
+    },
+    {
+        image: "url(./theband.png)",
+        overLine: "Website",
+        title: "The Band",
+        techList: ["HTML", "CSS", "Javascript"],
+        gitLink: "https://github.com/koten551/theband",
+        projectLink: "https://magnificent-fox-2c9df9.netlify.app/",
+        description: "Thực hành dự án cắt HTML, CSS the Band của w3schools với giao diện hỗ trợ responsive "
+    },
+    {
+        image: "url(./musicApp.png)",
         overLine: "Website & App",
         title: "Fresh Food",
         techList: ["HTML", "CSS", "Javascript"],
-        gitLink: "http://github.com/",
-        projectLink: "http://github.com",
-        description: "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm."
-    },
-    {
-        image: "url(./foodpreview.png)",
-        overLine: "Website & App",
-        title: "Fresh Food",
-        techList: ["HTML", "CSS", "Javascript"],
-        gitLink: "http://github.com/",
-        projectLink: "http://github.com",
-        description: "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm."
+        gitLink: "https://github.com/koten551/musicAppF8",
+        projectLink: "https://lucky-empanada-db1b3d.netlify.app/",
+        description: "Trình phát nhạc tự code xịn xò con bò"
     }
 ]
 

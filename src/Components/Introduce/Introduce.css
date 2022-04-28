@@ -15,14 +15,14 @@
 }
 
 .introduce > h1 {
-    font-size: 80px;
+    
     color: var(--header-color);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 
 .introduce > h2 {
-    font-size: 70px;
+    
     color: var(--text-color);
     font-family: 'Inter', sans-serif;
     font-weight: 600;

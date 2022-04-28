@@ -1,13 +1,57 @@
-
 .about_me {
     padding: 50px 0;
     margin-bottom: 200px;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.about_me .avatar_wrap {
+    position: relative;
+}
+
+.about_me .avatar_wrap:before {
+    content: "";
+    background-color: var(--primary-color);
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.about_me .avatar_wrap:hover.avatar_wrap:before {
+    opacity: 0;
+}
+
+.about_me .avatar_wrap:hover .avatar_border {
+    transform: translateY(6px) translateX(8px);
+}
+
+.about_me .avatar_border {
+    width: 304px;
+    height: 304px;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    transform: translateY(10px) translateX(12px);
+    transition: all 0.3s;
+}
+
 .about_me .avatar {
     width: 300px;
     height: 300px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
 }
+
+
+
 
 .about_me .section_inner {
     color: var(--text-color);
@@ -15,15 +59,14 @@
 }
 
 .about_me .section_inner p {
-    padding-right: 30px;
     margin-bottom: 20px;
-}
-
-.about_me .section_inner .avatar_wrap {
-    width: 40%;
 }
 
 .about_me .section_inner .list-group li {
     font-size: 14px;
     line-height: 24px;
+}
+
+.about_me .list-group {
+    margin-bottom: 20px;
 }

@@ -30,7 +30,8 @@
 }
 
 .project .section_inner {
-    padding: 10px 0 80px 0;
+    margin: 10px 0 80px 0;
+    position: relative;
 }
 
 .project_details_wrap {

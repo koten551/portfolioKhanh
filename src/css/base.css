@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.big_heading {
+    font-size: clamp(40px, 8vw, 80px);
+}
+
 .background {
     position: absolute;
     top: 0;
@@ -39,4 +43,30 @@ html {
     transform: rotate(45deg) translateY(-4px);
     background-color: var(--primary-color);
     margin-right: 10px;
+}
+
+
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* tablet + mobile */
+
+@media (max-width: 63.9375em) {
+
+}
+
+/* mobile */
+
+@media (max-width: 46.1875em) {
+    .nav-list {
+        display: none !important;
+    }
+
+    .vertical_bar {
+        display: none !important;
+    }
+
 }

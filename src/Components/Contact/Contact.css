@@ -28,3 +28,31 @@
 .form-group textarea {
     resize: none;
 }
+
+.contact button {
+    display: block; 
+    background-color: transparent; 
+    height: fit-content; 
+    width: fit-content; 
+    margin: 20px auto; 
+    border: none;
+}
+
+.contact .status_message {
+    text-align: center;
+    font-size: 20px;
+    color: var(--primary-color);
+    animation: flyUp 2s linear forwards;
+}
+
+@keyframes flyUp {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
