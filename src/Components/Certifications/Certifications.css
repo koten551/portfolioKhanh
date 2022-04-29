@@ -1,4 +1,45 @@
 
 .certification {
-    margin-bottom: 200px;
+    padding-bottom: 200px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.certification .section_inner {
+    min-height: 230px;
+    
+}
+
+.certification .tab_list {
+    color: var(--text-color );
+    border-left: 3px solid transparent;
+    position: relative;
+}
+
+.certification .tab_list .line {
+    position: absolute;
+    left: -3px;
+    top: 0;
+    width: 2px;
+    height: 41px;
+    background-color: var(--primary-color);
+    transition: all 0.2s linear;
+}
+
+.tab_list_item {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tab_list_item.active {
+    color: var(--primary-color);
+}
+
+.certification .tab_panel {
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-family: var(--primary-font);
 }

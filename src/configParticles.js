@@ -34,7 +34,7 @@ const particlesConfig = {
         },
       },
       push: {
-        quantity: 4,
+        quantity: 1,
       },
       repulse: {
         distance: 200,
@@ -71,7 +71,7 @@ const particlesConfig = {
         enable: true,
         area: 800,
       },
-      value: 80,
+      value: 30,
     },
     opacity: {
       value: 0.5,

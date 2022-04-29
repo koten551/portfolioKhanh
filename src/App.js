@@ -14,7 +14,7 @@ function App() {
     await loadFull(main)
   }
   const particlesLoaded = (container) => {
-    
+
   }
   return (
     <>

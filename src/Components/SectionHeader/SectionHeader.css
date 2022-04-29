@@ -5,6 +5,7 @@
     align-items: center;
     padding: 10px 0;
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 .section_header > span {

@@ -13,7 +13,7 @@ const projectList = [
         techList: ["HTML", "CSS", "Javascript"],
         gitLink: "https://github.com/koten551/webNongSan",
         projectLink: "https://nongsansach.netlify.app/",
-        description: "Website bán nông sản sạch, hữu cơ, chuyên cung cấp các sản phẩm sạch, chất lượng và an toàn cho người tiêu dùng"
+        description: "Website bán nông sản sạch, hữu cơ, chuyên cung cấp các sản phẩm sạch, chất lượng và an toàn cho người tiêu dùng."
     },
     {
         image: "url(./tiktok.png)",
@@ -22,7 +22,7 @@ const projectList = [
         techList: ["ReactJS"],
         gitLink: "https://github.com/koten551/tiktokThemeClone",
         projectLink: "https://deluxe-druid-0f0867.netlify.app/",
-        description: "Sử dụng ReactJS tạo giao diện của Tiktok, dự án đang trong thời gian phát triển"
+        description: "Sử dụng ReactJS tạo giao diện của Tiktok, dự án đang trong thời gian phát triển."
     },
     {
         image: "url(./theband.png)",
@@ -31,7 +31,7 @@ const projectList = [
         techList: ["HTML", "CSS", "Javascript"],
         gitLink: "https://github.com/koten551/theband",
         projectLink: "https://magnificent-fox-2c9df9.netlify.app/",
-        description: "Thực hành dự án cắt HTML, CSS the Band của w3schools với giao diện hỗ trợ responsive "
+        description: "Thực hành dự án cắt HTML, CSS the Band của w3schools với giao diện responsive."
     },
     {
         image: "url(./musicApp.png)",
@@ -40,7 +40,7 @@ const projectList = [
         techList: ["HTML", "CSS", "Javascript"],
         gitLink: "https://github.com/koten551/musicAppF8",
         projectLink: "https://lucky-empanada-db1b3d.netlify.app/",
-        description: "Trình phát nhạc tự code xịn xò con bò"
+        description: "Trình phát nhạc tự code xịn xò, thỏa mãn đam mê nghe nhạc của bạn."
     }
 ]
 
